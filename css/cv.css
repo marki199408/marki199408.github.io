@@ -11,7 +11,7 @@ body{
 }
 
 #banner{
-    background-image: url(https://images.unsplash.com/photo-1671394507023-76c50b824053?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Light-Blue-Backgrounds.jpg);
     background-color: gray;
     padding: 15px;
 }
@@ -32,7 +32,7 @@ footer{
 #menulist li{
     width:165px;
     float: left;
-    background-color: gray;
+    background-color: rgb(96, 205, 238);
     list-style-type: none;
     margin: 4px;
     padding:2px;
@@ -41,7 +41,7 @@ footer{
 }
 
 #menulist li a{
-    color: wheat;
+    color: rgb(2, 1, 0);
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ footer{
 
 
 h1, h2, h3 {
-    color: rgb(17, 186, 17);
+    color: rgb(224, 31, 5);
 }
 
 #servicelist{
