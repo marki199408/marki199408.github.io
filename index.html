@@ -4,133 +4,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My CV</title>
-    <link rel="stylesheet" href="css/cv.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     </head>
   <body>
     <div id="section-home" class="container">
-        <div id="banner">
+        <div class="text-bg-primary p-3">
           <h1>Hi, I'm Mark John Angot</h1>
           <p>
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nemo, odio temporibus omnis optio sint necessitatibus architecto voluptatem at ullam, ratione molestiae quas harum repudiandae nam quidem assumenda aperiam reiciendis!
           </p>
           <p>
-            <a href="#section-about">Read More</a>
+            <a style="color: white ;" href="#section-about">Read More</a>
           </p>
         </div>
-  
-        <div id="menubar">
-          <ul id="menulist">
-            <li class="menuitem">
-              <a href="#section-home">Home</a>
-            </li>
-            <li class="menuitem">
-              <a href="#section-about">About</a>
-            </li>
-            <li class="menuitem">
-              <a href="#section-services">Services</a>
-            </li>
-            <li class="menuitem">
-              <a href="#section-resume">Resume</a>
-            </li>
-            <li class="menuitem">
-              <a href="#section-contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-  
+        <nav class="navbar bg-light">
+          <form class="container-fluid justify-content-start">
+            <a href="#section-home" class="btn btn-outline-success me-2">Home</a>
+            <a href="#section-about" class="btn btn-outline-success me-2">About</a>
+            <a href="#section-resume" class="btn btn-outline-success me-2">Resume</a>
+            <a href="#section-contact" class="btn btn-outline-success me-2">Contact</a>
+          </form>
+        </nav>
         <section id="section-about">
           <div class="section-heading">
-            <h2>About <strong>Me</strong></h2>
-          </div>
-          <p>
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi, atque, ad quam optio corrupti accusamus molestiae quidem culpa praesentium aliquid fugit libero labore. Adipisci quia rerum excepturi vitae veniam!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, accusamus. Necessitatibus voluptatum, dignissimos deleniti similique obcaecati voluptate mollitia voluptates iusto eius perspiciatis quidem, quis possimus harum incidunt delectus fugit veniam.
-          </p>
-  
-          <p>
-            <a href="#section-contact">Hire Me</a>
-          </p>
-  
-          <div class="section-heading">
-            <h2>My <strong>Skills</strong></h2>
-          </div>
-  
-          <div>
-            <ul>
-              <li>Multimedia presentation processing</li>
-              <li>
-                Computer programming skills in ASP.NET using C#, PHP, HTML,
-                CSS and JavaScript
-              </li>
-              <li>Database Administration: MySQL, MSSQL</li>
-              <li>Computer Hardware Servicing and Network Administration</li>             
-            </ul>
-            <p>
-              <a href="#section-contact">Hire Me</a>
-            </p>
-          </div>
-        </section>
-       
-        <section id="section-resume">
-          <div class="section-heading">
-            <h2>My <strong>Resume</strong></h2>
-          </div>
-          <div id="resumelist">
-            <div class="resumeitem">
-              <h2>Education</h2>
-              <div>
-                <span> 2010 - 2015</span>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <span>STI College Cotabato City</span>
-              </div>
-              <div>
-                <span> 2006 - 2010</span>
-                <h3>Secondary Level</h3>
-                <p></p>
-                <span>Rojas National</span>
-              </div>
-  
-              <div>
-                <span> 2000 - 2006 </span>
-                <h3>Elementary Level</h3>
-                <p></p>
-                <span>CCSPC</span>
+            <div class="card">
+              <h5 class="card-header">About Me</h5>
+              <div class="card-body">                
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi, atque, ad quam optio corrupti accusamus molestiae quidem culpa praesentium aliquid fugit libero labore. Adipisci quia rerum excepturi vitae veniam!
+                 </p>
+                 <p>
+                  <a href="#section-contact">Hire Me</a>
+                </p>
               </div>
             </div>
-            <div class="resumeitem">
-              <h2>Work Experience</h2>
-              <div>
-                <span> August 2018 - Present </span>
-                <h3>Lamsan</h3>
-                <p>IT Staff</p>               
+          </div>
+
+          <div class="section-heading">
+            <div class="card">
+              <h5 class="card-header">My Skills</h5>
+              <div class="card-body">                
+                <p>
+                  <li>Multimedia presentation processing</li>
+                <li>
+                  Computer programming skills in ASP.NET using C#, PHP, HTML,
+                  CSS and JavaScript
+                </li>
+                <li>Database Administration: MySQL, MSSQL</li>
+                <li>Computer Hardware Servicing and Network Administration</li> 
+                </p>
+                 <p>
+                  <a href="#section-contact">Hire Me</a>
+                </p>
               </div>
+            </div>
+          </div>          
+        </section>
+       
+        <section id="section-resume">         
+          <div id="resumelist">
+            <div class="resumeitem">
+            <div class="card">
+              <h5 class="card-header">Education</h5>              
+              <div class="card-body">
+                <h5 class="card-title">Bachelor of Science in Computer Science</h5>
+                <h5 class="card-title">2010 - 2015</h5>
+                <h5 class="card-title">STI College Cotabato City</h5>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Secondary Level</h5>
+                <h5 class="card-title">2010 - 2015</h5>
+                <h5 class="card-title">Rojas National</h5>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Elementary Level</h5>
+                <h5 class="card-title">2000 - 2006</h5>
+                <h5 class="card-title">CCSPC</h5>
+              </div>
+            </div>              
             </div>           
           </div>
         </section>
   
         <section class="site-section" id="section-contact">
-          <div>
-            <div>
-              <div>
-                <h2>My Contact Details</h2>
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    <span>Email</span>
-                    markjohnangot4@gmail.com
-                  </li>
-                  <li>
-                    <span>Address</span>
-                    Cotabato City <br />
-                    Philippines
-                  </li>
-                </ul>
-              </div>
+          <div class="card">
+            <h5 class="card-header">My Contact Details</h5>
+            <div class="card-body">                
+             <p>Email: markjohnangot4@gmail.com</p>
+             <p>Address: Cotabato City Philippines</p> 
             </div>
-          </div>
+          </div>          
         </section>
       </div>
     </body>
